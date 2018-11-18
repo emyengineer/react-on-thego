@@ -26,3 +26,101 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+
+.date-style {
+  margin-right: 10px;
+  height: 25px;
+}
+.name-style {
+  margin-right: 10px;
+  height: 25px;
+}
+.teacher-style {
+  margin-right: 10px;
+  height: 25px;
+}
+.lblDate-style {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+::-webkit-input-placeholder {
+   text-align: center;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   text-align: center;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   text-align: center;  
+}
+
+:-ms-input-placeholder {  
+   text-align: center; 
+}
+
+
+.course-rows {
+  display: flex;
+  flex-flow: wrap;
+  flex-direction: row;
+  align-content: center;
+  width: 100%;
+}
+.sec-detail-title {
+  text-align:  left;
+  margin: 0 10px 10px 10px;
+  width: 50%;
+}
+.rows-grid {
+  list-style-type: none;
+
+}
+
+.course-row {
+  height: 30px;
+  margin: 0 10px 10px 10px;
+
+}
+
+.header-fieldset {
+  width: 100%;
+}
+
+.header-content {
+  margin-bottom: 30px;
+}
+
+form {
+    width: 750px;
+    margin-right: auto;
+    margin-left: auto;
+    border: 1px;
+    border-color: black;
+    border-style: solid;
+}
+
+.title-style {
+  text-align: center;
+}
+
+.course-add-row {
+    margin-left: 500px;
+    border-radius: 10px;
+    background: #02b3e4;
+    color: #fff;
+    height: 40px;
+    font-weight: 600;
+}
+.remove-btn {
+    font-size:70px;
+    color:red;
+}
+.save-btn {
+    margin-left: 200px;
+    text-align: center;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    height: 50px;
+}
